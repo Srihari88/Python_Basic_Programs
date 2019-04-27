@@ -57,6 +57,26 @@ for x in range(10):
     else:
         print(" End for loop")
 
-
 else:
     print("else block")
+
+# Write a program to print the sum of 1 to 100.
+sum = 0
+for i in range(1, 1000):
+    sum = sum + i
+print(sum)
+
+# Write a program to print the even number from 1 to 100
+
+for i in range(1, 100):
+    if i % 2 == 0:
+        print("Even Number", i)
+    else:
+        print("Odd Number", i)
+
+# For loop with list data type
+
+Fruits = ['apple', 'Goa', 'banana', 'Orange']
+
+for fruit in Fruits:
+    print(fruit, len(fruit))
