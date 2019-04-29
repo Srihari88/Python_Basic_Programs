@@ -32,6 +32,7 @@ print(s[1:3])
 print(s[1:2])
 print(s[1:5])
 
+# Various methods in the sting data type
 print(s.find('Z'))
 print(s.rfind('H'))
 print(s.index('H'))
@@ -45,3 +46,15 @@ sri = "Hello Champs.!! what's going on"
 print(s.split('H'))
 print(sri.split('what'))
 print(sri.splitlines())
+
+# Example in the string data type
+
+t = "Hello Sri..!!! Welcome to the Python"
+
+print(t.lower())
+print(t.upper())
+print(t.capitalize())
+print(t.split("  "))
+print(t.replace("Welcome", "Python"))
+print(len(t))
+
